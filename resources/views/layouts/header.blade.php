@@ -5,7 +5,7 @@
 <div class="topbar-left">
     <a href="/" class="logo">
         <span>
-                <h1 style="color: white; ">AMS</h1>
+                <h2 style="color: white; ">Attendance </h2>
             </span>
         <i>
             <h1>A</h1>
@@ -27,7 +27,7 @@
         <!-- language-->
         <li class="dropdown notification-list d-none d-md-block">
             <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                <img src="assets/images/flags/us_flag.jpg" class="mr-2" height="12" alt=""/> English <span class="mdi mdi-chevron-down"></span>
+                <img src="assets/images/flags/india_flag.png" class="mr-2" height="12" alt=""/> English <span class="mdi mdi-chevron-down"></span>
             </a>
             <div class="dropdown-menu dropdown-menu-right language-switch">
                 <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="16" /><span> German </span></a>
@@ -47,10 +47,12 @@
 
         <!-- notification -->
         <li class="dropdown notification-list">
-            <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                <i class="mdi mdi-bell-outline noti-icon"></i>
-                <span class="badge badge-pill badge-danger noti-icon-badge">3</span>
-            </a>
+        <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+    <i class="mdi mdi-bell-outline noti-icon"></i>
+    <span class="badge badge-dot bg-danger" style="display: inline-block;position: absolute;top: 24px;right: 17px;width: 9px;height: 9px;border-radius: 100%;"></span>
+</a>
+
+
             <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
                 <!-- item-->
                 <h6 class="dropdown-item-text">
@@ -92,7 +94,7 @@
         <li class="dropdown notification-list">
             <div class="dropdown notification-list nav-pro-img">
                 <a class="dropdown-toggle nav-link arrow-none waves-effect nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <img src="assets/images/profile1.jpg" alt="user" class="rounded-circle">
+                    <img src="assets/images/profile1.png" alt="user" class="rounded-circle">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                     <!-- item-->
